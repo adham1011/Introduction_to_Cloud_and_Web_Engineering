@@ -1,0 +1,144 @@
+*{margin: 0; padding: 0;font-weight: 400;}
+header,nav,section,main,footer,article{display: block;}
+body{font-family: 'Arial Regular';}
+a{
+  text-decoration: none;
+  color: #8e959c;
+}
+a:hover{
+  color:#333333;
+}
+
+header{
+    height: 62px;
+    background-color: #1b1e26;
+ }
+ #logo{
+   width: 295px;
+   height: 62px;
+   margin-left: 64px;
+   background: url("../images/logo.png") no-repeat left 15px;
+ }
+ #logo h1{
+   padding-top: 20px;
+   padding-left: 38px;
+   font-size: 26px;
+   color: #79859b;
+ }
+ .lastName{
+   color: #db3927;
+   font-family: 'Helvetica Neue light';
+   font-weight: 700;
+ }
+
+ nav{
+   height: 30px;
+   background-color: #fff;
+   padding-top: 8px;
+ }
+nav a{
+  font-size: 20px;
+  padding-left: 70px;
+}
+
+.mainTitle{
+  margin-left: 70px;
+  margin-top: 27px;
+  color: #8e959c;
+}
+
+.mainStatus{
+  margin: 27px 0px 0px 70px;
+  padding: 15px;
+  width: 319px;
+  height: 243px;
+  border: 1px solid #d9dbdf;
+  border-bottom: 0px;
+  border-radius: 3px;
+}
+.subStatus{
+  margin-top: 10px;
+  width: 319px;
+}
+.subStatus h4{
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 12px;
+  color:#454e5c;
+}
+.koko{
+  display: block;
+  padding-top: 15px;
+  font-size:14px;
+  margin-bottom: 15px;
+  color:#b0b5ba;
+}
+
+/*boxbg class made for the 3 lines under the mainStatus Box*/
+.boxbg{
+    width: 349px;
+    height: 7px;
+    margin: 0px 0px 70px 72px;
+    background: url("../images/boxbg.jpg") no-repeat right bottom;
+}
+
+.secondryStatus{
+  width: 1140px;
+  border-top: 2px solid #e7e7e7;
+  padding-top: 35px;
+  margin-left: 70px;
+}
+.circileImg{
+    border-radius: 50%;
+}
+.date{
+  display: inline-block;
+  width: 159px;
+  font-size: 14px;
+  color: #abb1bb;
+  padding-bottom: 13px;
+}
+.secondryStatus .subStatus{
+  height: 80px;
+  margin-top: 0;
+}
+.secondryStatus h4{
+  width: 159px;
+  margin-left: 30px;
+}
+
+#skillsSection{
+  background-color: #24272e;
+  height: 248px;
+  margin-top: 37px;
+  padding: 40px 0px 0px 70px;
+}
+#skillsSection h3{
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+#skillsSection h4{
+  color: #494d53;
+  font-size: 20px;
+}
+
+footer{
+  padding: 24px 0px 0px 3px;
+  height: 68px;
+
+ }
+ footer a{
+   color:#333333;
+   font-size: 20px;
+   padding-left: 73px;
+ }
+ footer a:hover{
+   color: #8e959c;
+ }
+ footer h4{
+   display: inline;
+   padding-left: 73px;
+   color:#333333;
+   font-size: 20px;
+ }
