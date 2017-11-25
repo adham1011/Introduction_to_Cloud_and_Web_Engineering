@@ -1,0 +1,149 @@
+*{margin: 0; padding: 0;}
+
+header,nav,section,footer,article{ display: block;}
+.wrapper{
+  width: 1000px;
+  margin: 0px auto;
+}
+a{
+  text-decoration: none;
+  font-family: "HelveticaNeue-Thin";
+  color:#fff;
+}
+a:active {
+    background-color: #003748;
+}
+
+header{
+  height: 192px;
+  background-color: #d6d6d6;
+  position: relative;
+}
+#logo{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 452px;
+  top: 48px;
+  background: url("../../images/logo.png") no-repeat bottom left;
+}
+nav{
+  background-color: #337ab7;
+}
+.layout1Nav{
+  height: 40px;
+  padding: 11px 0px 11px 32px;
+}
+.layout2Nav{
+  float: left;
+  width: 146px;
+  height: 758px;
+}
+.layout1Nav a{
+  display: inline-block;
+  padding: 12px 84px 11px 84px;
+}
+.layout2Nav a{
+  display: block;
+  padding: 21px 0px 23px 7px;
+}
+article{
+  position: absolute;
+  background-color: #62c462;
+}
+
+/* Layout1 Sections and articles*/
+#layout1LeftSection{
+  position: relative;
+  width:755px;
+  height: 698px;
+  float: left;
+}
+#layout1RightSection{
+  position: relative;
+  width: 245px;
+  height: 698px;
+  background-color: #eeeeee;
+  float: left;
+}
+#Layout1LeftTop{
+  width: 700px;
+  height: 123px;
+  right: 25px;
+  top: 118px;
+}
+#Layout1LeftCenter{
+  width: 700px;
+  height: 202px;
+  right: 25px;
+  bottom: 232px;
+
+}
+#Layout1LeftBottom{
+  width: 184px;
+  height: 124px;
+  right: 25px;
+  bottom: 80px;
+}
+#rightBox{
+  width: 184px;
+  height: 124px;
+  top: 265px;
+  right: 10px;
+}
+
+/* Layout2 Sections and articles*/
+#layout2LeftSection{
+  position: relative;
+  width: 222px;
+  height: 758px;
+  background-color: #eeeeee;
+  float: left;
+}
+#layout2RightSection{
+  position: relative;
+  width: 632px;
+  height: 733px;
+  padding-top: 25px;
+  float: left;
+}
+#leftBox{
+  width: 79px;
+  height: 68px;
+  top: 261px;
+  left: 11px;
+}
+#layout2Left{
+  width: 190px;
+  height: 510px;
+  left: 5px;
+}
+#layout2CenterTop{
+  width: 189px;
+  height: 325px;
+  left: 224px;
+}
+
+#layout2CenterBottom{
+  width: 189px;
+  height: 388px;
+  left: 224px;
+  bottom: 0px;
+}
+#layout2Right{
+  width: 189px;
+  height: 125px;
+  right: 5px;
+}
+
+.clear{clear: both;}
+
+footer{
+  height: 50px;
+  background-color: #d6d6d6;
+}
+.fixedFooter{
+  width: 1000px;
+  position: fixed;
+  bottom: 0px;
+}
