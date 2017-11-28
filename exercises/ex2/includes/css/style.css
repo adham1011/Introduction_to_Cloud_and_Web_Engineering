@@ -10,9 +10,6 @@ a{
   font-family: "HelveticaNeue-Thin";
   color:#fff;
 }
-a:active {
-    background-color: #003748;
-}
 
 header{
   height: 192px;
@@ -29,6 +26,9 @@ header{
 }
 nav{
   background-color: #337ab7;
+}
+nav .selected {
+    background-color: #003748;
 }
 .layout1Nav{
   height: 40px;
