@@ -22,7 +22,7 @@ header{
   height: 100px;
   left: 452px;
   top: 48px;
-  background: url("../../images/logo.png") no-repeat bottom left;
+  background: url("../../images/logo.png") no-repeat center;
 }
 nav{
   background-color: #337ab7;
@@ -146,4 +146,55 @@ footer{
   width: 1000px;
   position: fixed;
   bottom: 0px;
+}
+
+/*
+* classes to for Layout3
+*/
+@media only screen and (max-width:768px){
+  #specialWrapper{
+    width: 666.66px;
+  }
+  #specialWrapper .layout1Nav a{
+    padding: 12px 75px 11px 76px !important;
+  }
+}
+@media only screen and (min-width: 768px){
+  #specialWrapper{
+    width: 1000px;
+  }
+  #specialWrapper .layout1Nav a{
+      padding: 12px 84px 11px 84px !important;
+  }
+}
+
+#specialWrapper{
+    margin: 0px auto;
+}
+#boxesSection{
+  display: inline-block;
+}
+#boxesSection article{
+  position: relative;
+}
+.box{
+  width: 333.33px;
+  height: 350px;
+  float: left;
+}
+.lightGreen{background-color: #62c462;}
+.oilGreen{background-color: #629c44;}
+.darkGreen{background-color: #355723;}
+.lightPurple{background-color: #b38df7;}
+.purple{background-color: #6334e3;}
+.lightRed{background-color: #ff3333;}
+.lighOrange{background-color: #ff884d;}
+.favorite{
+  background-image: url("../../images/white_star.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.plus{  background-image: url("../../images/white_plus.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
