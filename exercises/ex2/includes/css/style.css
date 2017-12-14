@@ -4,6 +4,7 @@ header,nav,section,footer,article{ display: block;}
 .wrapper{
   width: 1000px;
   margin: 0px auto;
+  background-color: #d6d6d6;
 }
 a{
   text-decoration: none;
@@ -17,12 +18,15 @@ header{
   position: relative;
 }
 #logo{
+  margin: auto;
   position: absolute;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   width: 100px;
   height: 100px;
-  left: 452px;
-  top: 48px;
-  background: url("../../images/logo.png") no-repeat center;
+  background: url("../../images/logo.png") no-repeat center;*/
 }
 nav{
   background-color: #337ab7;
@@ -57,6 +61,7 @@ article{
   position: relative;
   width:755px;
   height: 698px;
+  background-color: #fff;
   float: left;
 }
 #layout1RightSection{
@@ -105,6 +110,7 @@ article{
   width: 632px;
   height: 733px;
   padding-top: 25px;
+  background-color: #fff;
   float: left;
 }
 #leftBox{
@@ -151,26 +157,16 @@ footer{
 /*
 * classes to for Layout3
 */
-@media only screen and (max-width:768px){
-  #specialWrapper{
-    width: 666.66px;
-  }
-  #specialWrapper .layout1Nav a{
-    padding: 12px 75px 11px 76px !important;
-  }
+.layout3Nav {
+    height: 62px;
 }
-@media only screen and (min-width: 768px){
-  #specialWrapper{
-    width: 1000px;
-  }
-  #specialWrapper .layout1Nav a{
-      padding: 12px 84px 11px 84px !important;
-  }
+.layout3Nav a {
+  display: inline-block;
+  align-content: center;
+  padding: 22px 84px 22px 84px;
 }
 
-#specialWrapper{
-    margin: 0px auto;
-}
+
 #boxesSection{
   display: inline-block;
 }
@@ -197,4 +193,14 @@ footer{
 .plus{  background-image: url("../../images/white_plus.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/*Break Point media Query*/
+@media only screen and (max-width:768px){
+  .wrapper{
+    width: 666.66px;
+  }
+  .layout3Nav a{
+    padding-right: 78px;
+  }
 }
