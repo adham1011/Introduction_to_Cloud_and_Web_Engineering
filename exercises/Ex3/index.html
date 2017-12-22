@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      <link rel="stylesheet" href="includes/style.css">
+      <title>Adham_Homework3</title>
+   </head>
+   <body>
+      <main>
+         <div class="container">
+            <h1>Complete this form</h1>
+            <div class="form-container">
+               <form action="http://html5-book.co.il/teach/forms/get_form2.php" method="get">
+                  <!--FullName input  -->
+                  <label>
+                  Full Name:
+                  </label>
+                  <input type="text" name="fullName" required></input>
+                  <!-- pass input  -->
+                  <label>
+                  Password:
+                  </label>
+                  <input type="password" name="pass" required></input>
+                  <!-- E-mail Address  -->
+                  <label>
+                  E-mail address:
+                  </label>
+                  <input type="email" name="mail"></input>
+                  <!-- Website URL  -->
+                  <label>
+                  Website URL:
+                  </label>
+                  <input type="url" name="website"  placeholder="http://domain.com" ></input>
+                  <!-- Phone Number  -->
+                  <label>
+                  Phone Number:
+                  </label>
+                  <input type="text" name="phone" placeholder="050-1234567"  pattern="[0-9]{3}[-][0-9]{7}" ></input>
+                  <!-- Number input  -->
+                  <label>
+                  Amount coffee Per Day:
+                  </label>
+                  <input type="number" name="coffee" ></input>
+                  <!-- Range Input -->
+                  <label>
+                  Temperuture now:
+                  </label>
+                  <br>
+                  0 <input type="range" name="temper" min="0" max="50" ></input> 50
+                  <!-- TextArea -->
+                  <label>
+                  Address:
+                  </label>
+                  <textarea name="address" rows="3" cols="20" ></textarea>
+                  <!-- checkbox input -->
+                  <h3>Hobbies:</h3>
+                  <hr>
+                  <span>
+                  <label>
+                  Reading books:
+                  <input type="checkbox" name="interests[]" value="Reading Books">
+                  Programming:
+                  <input type="checkbox" name="interests[]" value="Programming">
+                  Swimming:
+                  <input type="checkbox" name="interests[]" value="Swimming">
+                  Drawing:
+                  <input type="checkbox" name="interests[]" value="Drawing">
+                  </label>
+                  <!-- RadioBox input -->
+                  <h3>What is Your Gender:</h3>
+                  <hr>
+                  <label>
+                  Male<input type="radio" name="gender" value="male" checked></input>
+                  Female<input type="radio" name="gender" value="female"></input>
+                  Other<input type="radio" name="gender" value="other"></input>
+                  </label>
+                  <br>
+                  <!-- Selection -->
+                  <Label>
+                  age:
+                  </label>
+                  <select name="age">
+                     <option value="under 18">under 18</option>
+                     <option value="18+">18 - 29</option>
+                     <option value="18+">30 - 39</option>
+                     <option value="18+">40+</option>
+                  </select>
+                  <input type="submit" value="Submit">
+               </form>
+            </div>
+         </div>
+      </main>
+   </body>
+</html>
