@@ -1,0 +1,33 @@
+*{padding: 0; margin: 0};
+section,nav,article,header,main{display: block;}
+body{}
+header{
+  height: 62px;
+  background-color: #f4f4f4;
+  position: relative;
+}
+a{
+  text-decoration: none;
+  padding: 23px 18px 23px 18px;
+}
+#logoSec{
+  width: 115px;
+  height: 62px;
+  display: inline-block;
+  position: absolute;
+  background: url("../images/Count_me_in_logo.png") no-repeat center left;
+}
+#brandName{
+  position: absolute;
+  left: 93px;
+  top:24px;
+  font-size: 14px;
+  font-family: 'Abril Fatface';
+}
+nav{
+  font-size: 18px;
+  color: #000;
+  position: absolute;
+  display: inline-block;
+  left: 243px;
+}
